@@ -55,7 +55,6 @@ title:  "24-03-21 5week 문제풀이"
       function gender1() {
         alert(eunseo['gender']);
       }
-      console.log(eunseo.compliment);
     </script>
   </body>
 </html>
