@@ -45,7 +45,7 @@ title:  "24-03-21 5week 문제풀이"
 <br>
 
 ### 소정이문제
-```js
+```java
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -184,7 +184,7 @@ title:  "24-03-21 5week 문제풀이"
 <br>
 
 ### 윤아 문제
-```js
+```java
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -261,7 +261,7 @@ title:  "24-03-21 5week 문제풀이"
 <br>
 
 ### 륜이 문제
-```js
+```java
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -296,7 +296,7 @@ title:  "24-03-21 5week 문제풀이"
 <br>
 
 ### 예지 문제- 해결 못함
-```js
+```java
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -352,7 +352,7 @@ title:  "24-03-21 5week 문제풀이"
 <br>
 
 ### 보윤이 문제
-```js
+```java
 <!DOCTYPE html>
 <html lang="en">
   <head>
