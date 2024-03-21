@@ -4,7 +4,7 @@ title:  "24-03-21 5week 문제풀이"
 ---
 
 ### 준이문제
-```java
+```html
 <body>
     <button onclick="quiz1()">
       C++과 자바는 클래스 기반 객체지향 언어이다.
