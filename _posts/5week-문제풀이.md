@@ -2,6 +2,66 @@
 layout: single
 title:  "24-03-21 5week 문제풀이"
 ---
+<br>
+
+### 내 문제
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>객체 리터럴 생성</title>
+    <style>
+      body {
+        margin: 300px 400px;
+      }
+      button {
+        width: 170px;
+        height: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="studentId1()">나의 학번은?</button>
+    <button onclick="major1()">나의 전공은?</button>
+    <button onclick="gender1()">나의 성별은?</button>
+    <button onclick="compliment1()">나에게 해주고 싶은 말은?</button>
+    <script>
+      //1.(첫번째) 객체 리터럴 안에 (두번째) 객체 리터럴 만들기
+      const eunseo = {
+        school: {
+          'student-Id': '202310473',
+          major: 'medical information',
+        },
+        gender: 'female',
+      };
+
+      //2.함수로 프로퍼티 동적 생성하여 alert창에 값 띄우기
+      function compliment1() {
+        //compliment라는 프로퍼티키로 프로퍼티 동적 생성(자신에게 해주고 싶은 말❤️)
+        eunseo.compliment = "힘내라 힘!";
+        alert(eunseo.compliment);
+      }
+      //studentId1 함수(student-Id 값 alert창에 값 띄우기)
+      function studentId1() {
+        alert(eunseo['school']['student-Id']);
+      }
+      //major1 함수(major값 alert창에 값 띄우기)
+      function major1() {
+        alert(eunseo.school.major);
+      }
+      //gender1 함수(gender값 alert창에 값 띄우기)
+      function gender1() {
+        alert(eunseo['gender']);
+      }
+      console.log(eunseo.compliment);
+    </script>
+  </body>
+</html>
+```
+<br>
+<br>
 
 ### 준이문제
 ```html
@@ -45,7 +105,7 @@ title:  "24-03-21 5week 문제풀이"
 <br>
 
 ### 소정이문제
-```java
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -184,7 +244,7 @@ title:  "24-03-21 5week 문제풀이"
 <br>
 
 ### 윤아 문제
-```java
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -261,7 +321,7 @@ title:  "24-03-21 5week 문제풀이"
 <br>
 
 ### 륜이 문제
-```java
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -296,7 +356,7 @@ title:  "24-03-21 5week 문제풀이"
 <br>
 
 ### 예지 문제- 해결 못함
-```java
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -352,7 +412,7 @@ title:  "24-03-21 5week 문제풀이"
 <br>
 
 ### 보윤이 문제
-```java
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
